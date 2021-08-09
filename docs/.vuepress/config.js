@@ -5,11 +5,12 @@ module.exports = {
         logo: '/icon.png',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
+            { text: 'Guide', link: '/home' },
             { text: 'External', link: 'https://google.com' },
         ],
         // displayAllHeaders: true,
         sidebar: [
+            ['/pages/home', '导航'],
             '/pages/程序变量命名的几种叫法',
             '/pages/代码提交规范',
             '/pages/Code-English',
